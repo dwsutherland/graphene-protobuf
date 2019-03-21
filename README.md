@@ -1,7 +1,7 @@
 # graphene-protobuf
 Testing graphql query resolving off protobuf
 
-# Intall
+# Install
 `pip install graphene protobuf`
 
 # Run
