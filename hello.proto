@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+message Starship {
+    string name = 1;
+    int32 length = 2;
+}
+
+message Human {
+    string id = 1;
+    string name = 2;
+    string friends = 3;
+    string type = 4;
+    string home_planet = 5;
+    repeated Starship starships = 6;
+}
+
+message Droid {
+    string id = 1;
+    string name = 2;
+    string friends = 3;
+    string type = 4;
+    string primary_function = 5;
+}
+
+message Person {
+    string name = 1;
+    int32 age = 2;
+    map<string, string> details = 3;
+}
